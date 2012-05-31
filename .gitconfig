@@ -1,0 +1,10 @@
+[user]
+	email = tgreen@opscode.com
+	name = Tim Green
+[push]
+	default = current
+[core]
+	editor = vim
+	excludesfile = /Users/timgreen/.gitignore_global
+[color]
+	ui = true

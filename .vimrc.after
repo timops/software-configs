@@ -1,0 +1,6 @@
+map <F7> :tabp <CR>
+map <F8> :tabn <CR>
+
+set cursorline
+hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+set listchars+=trail:\ 
