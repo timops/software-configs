@@ -1,4 +1,5 @@
 export PS1="\h: [\w] \u\$ "
+export EDITOR='vim'
 
 alias ll='ls -lGahtr'
 alias ls='ls -Gatr'
