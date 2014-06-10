@@ -1,6 +1,15 @@
-map <F7> :tabp <CR>
-map <F8> :tabn <CR>
+" Map keys for navigating tabs.
+map <S-Left> :tabp <CR>
+map <S-Right> :tabn <CR>
 
 set cursorline
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 set listchars+=trail:\ 
+
+let NERDTreeIgnore = ['\.o', '\.x']
+
+" latex-box plugin will continuously compile when the following is enabled.
+"let g:LatexBox_latexmk_preview_continuously = 1
+
+" prevent compile warnings from capturing the editor.
+let g:LatexBox_quickfix = 2

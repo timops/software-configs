@@ -1,5 +1,4 @@
 
-# MacPorts Installer addition on 2012-04-30_at_21:54:23: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+PATH=$PATH:$HOME/.rvm/gems/ruby-2.0.0-p353/bin # include gem binaries in path also
 
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
